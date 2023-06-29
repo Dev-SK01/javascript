@@ -1,0 +1,96 @@
+
+1.Identifier Should Be Dollar and Forst character should be alphabet
+under_score 
+
+2.Other character may be alpha numerical means number + alphabets
+
+3.should not use keywords like var,for,while....
+
+4.Keywords and reserved words are built-In language set of instruction It has 
+ A Unique Work.
+
+5. Js Syntax : JavaScript is case sensitive Iam iam are differ.
+   Js Statement : set of instruction to do some work. Use ; to End the Statement
+
+6.Multi line Comment --> /* */
+  Comments --> single Line //
+
+7. Data Types
+  Simple Data Type --> Primitive --> number , string , Boolean ,Null,Undefined.
+  Complex Datatypes --> referance --> Object , Functions.
+
+8.We Can Store Datatypes Upto Browser Storage --> Number.MAX_VALUE Shows .
+
+9. We can Store OCtal Nd Hex Numbering Systems.
+
+10. String : Sequence Of Character 'C'--> Character 'abcd' --> string .
+
+11. Boolean : true & false | True & False --> not a keyword . Not Equal to 0 & 1
+
+12. Undefined : No Value Is stored.
+
+13. NUll : No Value .
+
+14. Object : Complex Datatypes --> Future.
+
+15. JS Is Weakly Typed Means var Age=10 Nd var age="c" In this case the Age Data
+    is changed . This Mean It Changes the Datatype If You Changed.
+
+16. TypeOf --> Used to Know The Variable Datatype in Js.
+
+17. Arthmetic Operators --> + , - , / , * , % --> can be keyword or symbol.
+
+18. Increment Operator ++ --> Increase + 1 Wiseversa Decrement --.
+
+19. Post Nd Prefix --> Post Increment increaments the after finished.
+   Pre Increment Iincrements the before enter.
+
+20. Type Coersion --> One Data changes Into another Datatype. '01' --> num 01.
+
+21. Relationsl Operator --> < , > , >= , <= ,!= ,===, !== .
+
+22.If We Use string In relation Operator it Converts Number.
+   If we Use === No Convertion Performs.
+
+23. Logical Operator : It Converts the operand datatype into Boolean true or
+    false --> truthy values and falsy falues.
+    !(not) --> work opposite true --> op false
+   || (or) --> work on two opearand if one if true return true
+   && ( and ) --> if one operand is false return false.
+  
+24. Conditional Operator : 
+    variablename = booleanexpression ? truevalue : falsevalue ;
+    example: num = 10 > 20 ? "yes" : "no" ;
+
+25. If And If_Else : 
+    if(condition){}
+    if(condition){}
+    else{}
+   else if (condition){} --> enters the if is false the else if excuted
+   NestedIf --> if(condition){if(condition){}} if is true then inside if is 
+                excuted otherwise not excuted.
+
+26. Alert , Prompt , Confirm 
+   Alert ---> alerts the webpage
+  prompt --> get input from the user
+ confirm --> if click ye return true cancel return false
+
+27. Loops : 
+   For(initial value ; condition ; incre/decrement){} --> predefined time runs
+   while --> Condition true still Excutes . Entry Checking.
+  while Loop --> Exit checking.
+
+28. Break  ,  Continue : 
+    breaks --> take program flow out or exit .
+    continue --> takes program flow start of the loop.
+
+29. Switch --> it checks the value and case it its true excutes the set of 
+               commands. Js Checks the Case Near value And Switch value.
+   Syntax --> switch ( variable ) {
+                     case 1 : 
+                       statements ...
+                       break;
+                    default : 
+                       statements...
+                }
+30. 
