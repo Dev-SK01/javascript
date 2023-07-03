@@ -1,0 +1,14 @@
+Functions In Js  : 
+
+1.Function means Set OF Instruction . That Excutes the Particular Actions .
+
+Syntax : 
+function fname ( param 1, param2)
+{
+
+}
+
+fname(); --> function call : 
+
+2. return --> returns the function value or data
+
