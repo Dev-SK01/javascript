@@ -1,0 +1,28 @@
+   
+    Def :
+        User Defined Datatype. Its IS Reference Datatype. For Example Number Is Datatype It is Defined by
+        JS Dev . So It Has A Definition . So Like That Object Also. Reference is Data Nd theri operations
+        grouping Way . Object Is Reference Type Instance Means Blueprint . Constructor Is Instance create
+        Way.
+  
+    Syntax : 
+        variable name = new Object(); --> Object is Constructor.
+        instanceof --> shows which reference type .
+        It Has Property And Its Value . We Access the Value By USing '.' Symbol.
+
+        Ex : 
+         var student = new Object();
+         student.name =' Devsk ';  --> name property | devsk --> value
+         student.dep = ' CSE '
+         Console.log(student.name);
+         console.log(student.dep);
+
+   2. We Can Create a funciton inn object In object it called Method . It operates on object property 
+      value.
+
+   3. Difference b\w primitive and reference Datatypes.
+
+   4.There Is no Fixed Size In Object reference.
+
+   5. primitive valuies stored in stack object values stored in Heap. --> like pointers. Object Referes 
+      reference of the obbject that means data Nd methods.

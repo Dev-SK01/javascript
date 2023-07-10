@@ -1,14 +1,25 @@
-Functions In Js  : 
+        Functions In Js :
 
-1.Function means Set OF Instruction . That Excutes the Particular Actions .
+        1.Function means Set OF Instruction . That Excutes the Particular Actions .
 
-Syntax : 
-function fname ( param 1, param2)
-{
+        Syntax :
+        function fname ( param 1, param2)
+        {
 
-}
+        }
 
-fname(); --> function call : 
+        fname(); --> function call :
 
-2. return --> returns the function value or data
+        2. return --> returns the function value or data
 
+        3. In Function There Is A Number Of return statements are there.
+
+        4.If Return Statements Is Excuted the program flow Comes to the function call place .
+
+        5. If No Function signature in Js
+
+        6. We Can create same named Funciton in JS The LAst Written Funciton Will be Worked It Overwrites the Funciton
+        
+        7. If there Is Return statement In function Is shows Undefined .
+
+        8. Funciton is DataType.

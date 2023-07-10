@@ -1,5 +1,5 @@
 
-1.Identifier Should Be Dollar and Forst character should be alphabet
+1.Identifier Should Be Dollar and First character should be alphabet
 under_score 
 
 2.Other character may be alpha numerical means number + alphabets
