@@ -24,5 +24,62 @@
 
    4.There Is no Fixed Size In Object reference.
 
-   5. primitive valuies stored in stack object values stored in Heap. --> like pointers. Object Referes 
+   5. primitive values stored in stack | object values stored in Heap. --> like pointers. Object Referes 
       reference of the obbject that means data Nd methods.
+   6. ES Standard the Object is collection of values is might be primitive or reference values.
+
+   7. Second method to create a Object --> var obj = {} 
+
+   8. This Keyword is used to refer the same object.
+
+   9. We can Use  [] To Add a property in object. we can also use variable to add property By [].
+
+   10. For In Loop Is used To access The property In the Object 
+     
+       Syntax : 
+
+        For ( variable in objname){
+
+        }
+    11. Object has Default prototype Object.
+
+    12. hasWonproperty() --> used to chech the property is here on the OwnObject. 
+
+    13.In Js there Is restriction to the Property . let Us see . there Is two Type Of restriction property
+        1.Data Property.
+        2.Accessor property .
+
+    14. Data Property -> Dataproperty Is Data Value storing location. In this location we Can R/W.
+        In ES 5 Internal Attribute Write in [[Attribute name]] .
+
+    15.In Data Property there Is Four attribute. By default the Attribute Set As True.
+
+       1.Value --> The actual Values is Stored.
+       2.Writable --> The Value is writable or not | permission.
+       3.Enumerable --> display or not in for in loop.
+       4.Configurable --> the above mentioned attribute Configurable or not | permission .
+    
+    16.Object.defineproperty() --> used to define the property of the data property.By using the defineproperty
+       the Default value Is false.
+       
+       Syntax : 
+    Object.defineProperty(object , 'property name' , {
+        four attribute values true | false 
+    })
+
+   17. Delete Keyword Used to Delete the variable or datatype.
+
+   18. Accessor Property --> we cant store the data value. there Is two Funcions.These functions Invoke 
+       read And Write time. Sometime We Have Some Changes to Modify the Property that time Accessor
+       property will use.
+
+       In this function We add New Property and check the property value and upadte the existing value.
+
+       1.GET --> function work normal return the value
+       2.SET --> function get the given value and do some validations nd return.
+
+       Syntax: 
+       Object.defineProperty(object, 'prop name',{
+        get: function(),
+        set: function()
+       })

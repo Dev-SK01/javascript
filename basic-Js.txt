@@ -31,7 +31,7 @@ under_score
 
 13. NUll : No Value .
 
-14. Object : Complex Datatypes --> Future.
+14. Object  & Function : Complex Datatypes --> Future.
 
 15. JS Is Weakly Typed Means var Age=10 Nd var age="c" In this case the Age Data
     is changed . This Mean It Changes the Datatype If You Changed.
