@@ -97,6 +97,32 @@ Object.defineProperty(employee,'Age2',{
 
 });
 
-employee.Age2 = 20;
+employee.Age2 = 60;
 //  ? after the updation 
 employee.details();
+
+// todo Object constructor Function Example : 
+
+function Social_media(name,type,popularity){
+   this.Name = name;
+   this.Type = type ;
+   this.Popularity = popularity;
+//    todo constructor inside function
+   this.Details = function(){
+    return console.log(
+        'Name : ' + this.Name,
+        'Type : ' + this.Type ,
+        'Popularity: ' + this.Popularity
+    )
+   }
+   
+}
+
+var media1 = new Social_media('Youtube','Video Hosting','High');
+//  ? inside function call 
+media1.Details();
+var media2  = new Social_media('Facebook','Social Friends','Medium');
+var media3 =  new Social_media('Threads','Sharing Opinion','High')
+
+
+

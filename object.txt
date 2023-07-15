@@ -17,7 +17,7 @@
          Console.log(student.name);
          console.log(student.dep);
 
-   2. We Can Create a funciton inn object In object it called Method . It operates on object property 
+   2. We Can Create a function in object In object it called Method . It operates on object property 
       value.
 
    3. Difference b\w primitive and reference Datatypes.
@@ -59,8 +59,8 @@
        3.Enumerable --> display or not in for in loop.
        4.Configurable --> the above mentioned attribute Configurable or not | permission .
     
-    16.Object.defineproperty() --> used to define the property of the data property.By using the defineproperty
-       the Default value Is false.
+    16.Object.defineproperty() --> used to define the property of the data property.By using the 
+       defineproperty the Default value Is false.
        
        Syntax : 
     Object.defineProperty(object , 'property name' , {
@@ -83,3 +83,11 @@
         get: function(),
         set: function()
        })
+    
+    19. Creating Objects : 
+        Constructor Function Id defined by New prefix keyword .
+
+    20.When We create function and When we call the new Keyword is used automatically convert the 
+       function into Object.
+    
+    21. In Object Constructor Function We use the function First letter as Capitial for Differentiate.

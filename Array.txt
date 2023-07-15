@@ -1,0 +1,68 @@
+ 1. Array Reference Type : 
+     Is A set Ordered datatypes . Noramal language array Stores the same data values.
+     In JS Is Object. We can Store Any kind Of Data Type.
+2. There is 2 ways to define Array In JS
+   i.CONSTRUCTER Type : 
+
+      syntax : 
+        var varname = new Array('elements');
+    
+    ii. LITERAL Syantax : 
+
+         Syntax : 
+           var varname = ['elements'];
+
+3. In Array Object The Property Name Is In the Numeric Value .
+
+   Example : 
+    var array =  {
+    0: "value",
+    1: "value"
+    };
+
+4. In JS Array Object The length Property automatically Created.
+
+5. Array Methods In Js . Array Methods are A manipulating the data of the array . 
+
+6. Array.isArray() --> Method used to find the array object or not.
+
+7. We Can overWrite the toString() & valueOf Methods in Object . In JS Array
+   the Two methods are already overWritten.
+
+8. JS Supports Unicode .
+
+9.                                  Conversion Method 
+
+10.toString() --> convert array into strings value.
+
+11. join( 'symbol ')  --> join the array with the given Symbol.
+
+                                Stack Data Structure 
+
+12. Stack Means Last In First out Means Last Inserted data Getback First.
+
+13.push() --> Stack method push the data in array last & give the length of the array as return value
+
+14. pop () --> Stack Method to delete the data in  the last inserted element return the deleted value.
+
+15.                            Queue Data Structure
+
+16. Queue Is First in First Out . It Means the data inserted  last Nd Deleted the first element
+
+17.shift() --> remove the first element of the array. return the removed data .
+
+18.unshift() --> adds the elements to first position of the array.
+
+                             Array reordering Methods
+
+20.reverse() --> reverse the array. 
+
+21. sort() --> sort the array elements. it converts the array values into string.
+
+22. We Can Passs the Function as data
+
+
+                           Array manipulating Methods 
+
+23.concat() --> join the two array | if there is no array to join return the copy of the array.
+
