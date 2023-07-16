@@ -20,6 +20,14 @@
 
         6. We Can create same named Funciton in JS The LAst Written Funciton Will be Worked It Overwrites the Funciton
         
-        7. If there Is Return statement In function Is shows Undefined .
+        7. If there Is  No Return statement In function Is shows Undefined .
 
-        8. Funciton is DataType.
+        8. Function is DataType.
+     
+        9. If the function name is called the function is passed as argument . If the function() calls
+           It passes the return value of the function.
+
+           Syntax : 
+            var As_Arg = somefunction(Argfun) --> passes the function.
+
+            var asValue = somefunction(Arg())  --> passes the return value.

@@ -26,14 +26,14 @@
 
 6. Array.isArray() --> Method used to find the array object or not.
 
-7. We Can overWrite the toString() & valueOf Methods in Object . In JS Array
+7. We Can overWrite the toString() & valueOf() Methods in Object . In JS Array
    the Two methods are already overWritten.
 
 8. JS Supports Unicode .
 
 9.                                  Conversion Method 
 
-10.toString() --> convert array into strings value.
+10. toString() --> convert array into strings value.
 
 11. join( 'symbol ')  --> join the array with the given Symbol.
 
@@ -47,7 +47,7 @@
 
 15.                            Queue Data Structure
 
-16. Queue Is First in First Out . It Means the data inserted  last Nd Deleted the first element
+16. Queue Is First in First Out . It Means the data inserted  last Nd Deleted the first element deleted.
 
 17.shift() --> remove the first element of the array. return the removed data .
 
@@ -59,10 +59,85 @@
 
 21. sort() --> sort the array elements. it converts the array values into string.
 
-22. We Can Passs the Function as data
+22. We Can Pass the Function as data
 
 
                            Array manipulating Methods 
 
 23.concat() --> join the two array | if there is no array to join return the copy of the array.
+   In Concat Method it take array , element as argument.
 
+24. slice() --> It Slices the particular elements in array .
+    1st argument tells start position , 2nd argument tells end position.
+    Return the sliced array.
+
+    EX: arrray.slice(1,9); --> it excludes the 9th index element. it means it slice upto 8 index
+
+25. splice() --> It used to delete the elements in the array & insert replace the elements in array.
+    It has two+ arguments. 1st arg tells start index , 2nd arg tells how many elements should remove.
+    Other arguments replaces or insert depends upon the index.
+
+    Splice Return the removed array.
+
+    EX : 
+      array.splice(0,3) --> 0 start index , 3--> says 3 elements .
+
+      array.splice(0, 3 , 'Insert Element') --> it inserts the element by the last removed element index
+      In this example The array Element inserted in the index 3 position. because the last removed
+      Element index is 3 .
+
+26.                             ARRAY ITERATIVE METHODS
+
+27. Array Iteration Means using For loops in array to process the elements. Iteration Means Repetition of
+    Process.
+    In iteration The three arguments 1st tells the element , 2nd tells the index , 3rd tells the array.
+   
+28. Array Iteration Methods needs two argument . 1st is function -->means which procces is going to
+    perform in the array. 2nd Scope This object.
+
+29.foreach() --> Perform On each array elements. No return value.
+
+   Syntax : 
+   array.foreach(fucntion(item,index,array)){
+      some work...
+   }
+   
+30. map() --> It also function as argument . return the new mapped array . operates on each elements in 
+    array.
+
+    Syntax : 
+     array.map(function(arg){
+      some work....
+     }) 
+
+40. filter() --> filter  the array return new filtered array item . function as param.
+    
+     Syntax : 
+     array.filter(function(param){
+
+     })
+
+41. every() --> In array the all elements pass the condition it returns  if true else false.
+
+42. some() ---> In array if any element is false return true . all elements is true return false.
+    It seems Quietly different ): 
+
+
+                         Array Reduction Methods
+                        
+43. Array Reduction means iterate the array values and compress a single value. 
+    1.reduce --> left to right reduce
+    2.reduce right --> right to left reduce .
+
+44. Reduce Function     
+    In reduce method the tow arg are passed one is callback function another is initial value
+    Syntax :
+
+    array.reduce(function(accumlator , current value , index , array){
+      some work.....
+    }, initial value)
+
+    accumlator --> It the return value .
+    current value --> indicates the current value . 
+    index --> position of the current value.
+    array --> indicates the array .

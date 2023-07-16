@@ -120,10 +120,13 @@
 
       */
      var Slice=arr1.slice(0,2);
-     console.log("Slice :"+Slice);
+     console.log("Slice : " +Slice);
+
      var Splice=arr2.splice(0,1);
      console.log("Splice :"+Splice);
+
      var Spliceinsert=arr3.splice(1,3,"Banana-1")
+     console.log(arr3);
      console.log("Spliceinsert :"+Spliceinsert);
      
     /* 
@@ -134,7 +137,7 @@
    console.log("For each Method");
    arr1.forEach(function(item,index,array){
        console.log("Array" +array);
-       console.log("THE" +item+ "is At Index " + index);
+       console.log("THE " +item+ " is At Index " + index);
        var arreach=document.querySelector(".foreach");
    arreach.innerHTML="<h1>For Each Array Iteration</h1><hr> ";
 
@@ -162,21 +165,22 @@
           it returns false otherwise return true
         })
    */
-  var map=document.querySelector(".map");
-  map.innerHTML="<h1>Array Map Method </h1>";
-  var element1=document.querySelector(".element")
+  // todo array map method.
  var pricelist=[100,200,300,400,500];
+
  var discount=8.5;
+
  var dislist=pricelist.map(function(price){
     var price= price-(price*discount/100);
-    return price;   //var element1=document.querySelector("element")
-   //element1.innerHTML="The New Mapped List " +dislist;
+    return price;   
     
  })
+
  console.log("the new mapped array is : "  +dislist);
 
  console.log("Filter Function With Object");
 
+  // todo employee array object as element .
  var employees=[
   {
     role:"developer-1",
@@ -193,23 +197,18 @@
   }
  ];
 
- var sortedemp=employees.map(function(employee){
-     if(employee.salary>20000)
-     {
-      return employee.role;
-     }
-     else{
-      console.log("No Employee Found");
-     }
-     
- })
- console.log("filter Function")
- var sortedemp1=employees.filter(function(employee){
-
-   return employee.salary>20000;
- })
- console.log(sortedemp1);
+ var sortedemp=employees.filter(function(employee,pos){
+  return employee.salary > 20000;
+})
 console.log(sortedemp);
+
+mapFilter = employees.map(function(employee){
+  return employee.salary > 20000;
+}) ;
+
+console.log(mapFilter);
+
+//   todo filter finished 
 
 console.log("Array SUM AND EVERY METHOD");
 
@@ -226,11 +225,41 @@ function getresult(mrklist){
     }
 };
 console.log("SUM FUNCTION");
-// creating a function as object
-function funobj(name,yoj,salary){
-  this.name=name;
-  this.yoj=yoj;
-  this.salary=salary;
+
+function someFun(reslut){
+   var result = reslut.some(isPass);
+   if(result){
+    return 'Some Passed'
+   }
+   else
+   {
+    return 'All passed ): '
+   }
 }
-var newobj=new funobj("devsk",2023,10000);
-console.log(newobj.name);
+
+function isPass(res){
+  return res < 45 ;
+}
+
+console.log(someFun([34,45,67,89,90]));
+console.log(someFun([100,100,100,100,100]))
+
+
+
+console.log(' Array Reduction Methods ');
+
+ var redcutionArray = [10,20,101,40];
+ console.log('Array Reduction Method for sum Of the Array :')
+var sumarray = redcutionArray.reduce(function(accum,crntvalue,index){
+   console.log('Accumalator : ' + accum);
+   console.log('Current Value: ' + crntvalue);
+   console.log('Index :  ' + index);
+   return accum + crntvalue ;
+   
+}) ;
+
+console.log('SumOfArray USing Reduce Method '+ sumarray );
+
+
+
+
