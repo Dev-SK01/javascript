@@ -36,7 +36,8 @@
 10. toString() --> convert array into strings value.
 
 11. join( 'symbol ')  --> join the array with the given Symbol.
-
+  
+    Array.from() --> gives the array.
                                 Stack Data Structure 
 
 12. Stack Means Last In First out Means Last Inserted data Getback First.
@@ -117,7 +118,7 @@
 
      })
 
-41. every() --> In array the all elements pass the condition it returns  if true else false.
+41. every() --> In array the all elements pass the condition it returns true else false.
 
 42. some() ---> In array if any element is false return true . all elements is true return false.
     It seems Quietly different ): 
@@ -130,7 +131,7 @@
     2.reduce right --> right to left reduce .
 
 44. Reduce Function     
-    In reduce method the tow arg are passed one is callback function another is initial value
+    In reduce method needs two args are passed one is callback function another is initial value.
     Syntax :
 
     array.reduce(function(accumlator , current value , index , array){

@@ -1,0 +1,16 @@
+                                Date & Regular Expression Objects
+    
+1.Date Object is Date representing Object. It Has Methods To do Some Operations Using Date & Time.
+   Synatax : 
+
+    var varName = New Date(); --> we can pass param as date you want. If nothing passe return 
+    current date.
+
+                           Regular Expression
+
+2. Regular Expression Is Finding Pattern IN the Given text . It Has Lot OF Method.
+   
+    Syntax : 
+
+     var regExp = new RegExp('pattern');
+     regExp.test('string')

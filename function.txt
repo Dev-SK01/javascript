@@ -18,11 +18,12 @@
 
         5. If No Function signature in Js
 
-        6. We Can create same named Funciton in JS The LAst Written Funciton Will be Worked It Overwrites the Funciton
+        6. We Can create same named Funciton in JS The Last Written Funciton Will be Worked It 
+           Overwrites the Funciton
         
         7. If there Is  No Return statement In function Is shows Undefined .
 
-        8. Function is DataType.
+        8. Function is Reference DataType.
      
         9. If the function name is called the function is passed as argument . If the function() calls
            It passes the return value of the function.
@@ -31,3 +32,28 @@
             var As_Arg = somefunction(Argfun) --> passes the function.
 
             var asValue = somefunction(Arg())  --> passes the return value.
+
+
+                              Detailed View Of Fucntions 
+                
+10. Function Is One of the Object In Js . We Can Create a Function as Two Methods .
+    Constructor Syntax : new Function ( function work)
+    Literal Synatx     : --> function functionName(params){}
+
+11. The Function Name Is A value So We Assign that value to another Variable . 
+
+12. Arguments Object Likely Array .Not Array .  --> handles the extra args. Using This Object
+    We can Handle the Lot Of argument In the Function.
+
+13. Callee() --> is Function Object method to Call the Function Reference.
+    Syntax : 
+    arguments.callee(function Arguments);
+
+14. Anonymous Function --> unnamed One time Excuting Function;
+    Ex:
+      array.map(function(param){
+        some work....
+      })
+15. IIFE --> immediately Invoked Function Expression.
+    In this Function Expression Is written that line the function called.It also Called self Excuting 
+    function.

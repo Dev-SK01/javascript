@@ -51,3 +51,32 @@ while (days <= 7) {
     }
     days++;
 }
+
+//   todo                    Detailed View Of Function
+
+var ConstructorSyntax = new Function( 'num1' , 'num2' , 'return num1 + num2');
+console.log('ConstructorFunction : ' + ConstructorSyntax(1 ,254));
+
+var literalSyntax = function(num1,num2){
+    return num1 + num2 ;
+}
+
+console.log('literalSyntax : ' , literalSyntax(1,254));
+
+var asValue = literalSyntax;
+
+console.log('Function as Value : ' + asValue(' Hello ', ' Learner!'));
+
+var argsObject = function (){
+    console.log(arguments);
+};
+argsObject(2,3);
+
+var valuateArgs = function(){
+    return Array.from(arguments).reduce(function(accum,value){
+        return accum + value;
+    })
+};
+
+console.log('Valuation Without Function Arguments 1 : ' +valuateArgs(120,120,34,90));
+console.log('Valuation Without Function Arguments 2 : ' +valuateArgs(120,120,34,100));
