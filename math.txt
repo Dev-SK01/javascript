@@ -1,0 +1,12 @@
+ 1. Math Object is a Collection of all Mathemedical Methods . It Excutes faster .
+
+ 2. min() , max() --> return the maximum and minimum value.
+
+ 3. round() --> normal round Function In math.
+
+ 4.ceil() --> if the number is fraction the  return next whole number
+
+ 5.floor() --> If the number is fraction it return the fraction whole number
+
+ 6. random() --> gives the fraction random number between 1 - 0. We Can generate More number in 
+    this Method.

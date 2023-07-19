@@ -1,7 +1,7 @@
    
     Def :
         User Defined Datatype. Its IS Reference Datatype. For Example Number Is Datatype It is Defined by
-        JS Dev . So It Has A Definition . So Like That Object Also. Reference is Data Nd theri operations
+        JS Dev . So It Has A Definition . So Like That Object Also. Reference is Data Nd their operations
         grouping Way . Object Is Reference Type Instance Means Blueprint . Constructor Is Instance create
         Way.
   
@@ -43,7 +43,7 @@
         }
     11. Object has Default prototype Object.
 
-    12. hasWonproperty() --> used to chech the property is here on the OwnObject. 
+    12. hasWonproperty() --> used to check the property is here on the OwnObject. 
 
     13.In Js there Is restriction to the Property . let Us see . there Is two Type Of restriction property
         1.Data Property.

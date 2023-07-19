@@ -67,6 +67,7 @@ var asValue = literalSyntax;
 
 console.log('Function as Value : ' + asValue(' Hello ', ' Learner!'));
 
+//  todo            Arguments Method 
 var argsObject = function (){
     console.log(arguments);
 };
@@ -80,3 +81,8 @@ var valuateArgs = function(){
 
 console.log('Valuation Without Function Arguments 1 : ' +valuateArgs(120,120,34,90));
 console.log('Valuation Without Function Arguments 2 : ' +valuateArgs(120,120,34,100));
+  
+//  todo            IIFE
+(function IIFE(name){
+    console.log( 'Named IIFE : ' + name);
+})('Hi I am IIFE Funciton ): ');

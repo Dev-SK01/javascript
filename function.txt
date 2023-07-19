@@ -25,13 +25,13 @@
 
         8. Function is Reference DataType.
      
-        9. If the function name is called the function is passed as argument . If the function() calls
+        9. * If the function name is called the function is passed as argument . If the function() calls
            It passes the return value of the function.
 
            Syntax : 
             var As_Arg = somefunction(Argfun) --> passes the function.
 
-            var asValue = somefunction(Arg())  --> passes the return value.
+            var asValue = somefunction(Argfun())  --> passes the return value.
 
 
                               Detailed View Of Fucntions 
@@ -57,3 +57,8 @@
 15. IIFE --> immediately Invoked Function Expression.
     In this Function Expression Is written that line the function called.It also Called self Excuting 
     function.
+
+    Syntax : 
+    (function name (parm){
+        some work....
+    })() ; -->  invoke function call

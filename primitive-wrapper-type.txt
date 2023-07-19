@@ -1,0 +1,29 @@
+1. Primitive Wrapper Means In primitive DataType There A Default Methods. It Called By '.' ,
+   When we Call The Method Using '.' The wrapper Excutes then That Object Destroyed.
+
+2. Number Wrapper Types : 
+   toString() --> convert To string.
+   toString(2) --> convert To Binary.
+   toString(8) --> convert To Decimal value.
+   toLocaleString() --> seperate by comma.
+   tofixed() --> decimal points.
+   toExponential() --> shows exponential Form.
+   toPrecision() --> how Many digit Show.
+
+3. String Wrapper Types : 
+  
+   charAt() --> retrun given position which letter is there.
+   charCodeAt() --> retrun given position letter of UTF-16.
+   concat() --> join the string.
+   endsWith() --> string is finished with the letter
+   includes() --> is there the given letter.
+   indexOf() --> give the index of the letter.
+   match() --> match Regular Expression.
+   padEnd() --> convert the string particular length with the given String.
+   repeat() --> return the string.
+   replace() --> replace the string.
+   search() --> search the string is or not.
+   slice() --> slice the string.
+   split() --> split the string return as array.
+   trim() --> trims the whitespace. 
+   
