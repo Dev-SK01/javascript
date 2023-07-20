@@ -10,3 +10,10 @@
 
  6. random() --> gives the fraction random number between 1 - 0. We Can generate More number in 
     this Method.
+ 7. Math.PI() --> pi value.
+
+ 8. trunc() --> shrink the input.
+
+ 9. pow() --> power of the number --> (number , power).
+
+ 10.

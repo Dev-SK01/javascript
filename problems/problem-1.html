@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problem 1</title>
+  </head>
+  <body>
+    <h1>Problem Description :</h1>
+    <p>
+      Define a String. If User reload generate a Random String using the Defined
+      string.
+    </p>
+    <p>Rock Papper Scissor Game :</p>
+  </body>
+  <script>
+    const myString = "Javascript learner";
+    console.log(
+      "Random String : ",
+      myString.charAt(Math.floor(Math.random() * myString.length))
+    );
+//  Rock Papper Scissor Game
+    const list = ["Rock", "Papper", "Scissor"];
+    let player = list[Math.floor(Math.random() * list.length)];
+    let computer = list[Math.floor(Math.random() * list.length)];
+    console.log("Player Choice : ", player);
+    console.log("Computer Choice : ", computer);
+
+    // Logic Of the ROCk Papper Scissor :
+
+    switch (player) {
+      case computer:
+        console.log("Game Is Tie!");
+        break;
+      case "Rock":
+        if (computer === "Scissor") {
+          console.log("Player Wins !");
+        } else {
+          console.log("Computer Wins !");
+        };
+        break;
+      case "Papper":
+        if (computer === "Rock") {
+          console.log("Player Wins !");
+        } else {
+          console.log("Computer Wins !");
+        };
+        break;
+      case "Scissor":
+        if (computer === 'Papper') {
+          console.log("Player Wins !");
+        } 
+        else {
+          console.log("Computer Wins !");
+        };
+        break;
+        default :
+          console.log('Game Not Started....');
+    }
+
+  </script>
+</html>

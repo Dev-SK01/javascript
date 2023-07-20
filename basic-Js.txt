@@ -93,4 +93,9 @@ under_score
                     default : 
                        statements...
                 }
-30. 
+30. Number Methods : 
+    parseFloat --> convert into float datatype.
+    parseInt --> convert into integer datatype.
+
+31. Chaining Is Possibel In JS --> Means we Can use multiple methods in one line using '.' 
+    operator to seperate the methods.
