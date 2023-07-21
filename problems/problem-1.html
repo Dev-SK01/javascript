@@ -5,15 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Problem 1</title>
   </head>
+  <style>
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+      color: white;
+      font-size: large;
+      flex-direction: column;
+    }
+  </style>
   <body>
     <h1>Problem Description :</h1>
     <p>
+      <h2>Problem 1 :</h2>
       Define a String. If User reload generate a Random String using the Defined
       string.
     </p>
-    <p>Rock Papper Scissor Game :</p>
+    <p>
+      <h2>Problem 2 :</h2>
+      Rock Papper Scissor Game Using Switch.
+    </p>
+    <p>
+      <h2>Problem 3 :</h2>
+      Rock Papper Scissor Using Ternary Operator .
+    </p>
+    <p>
+      <h2>Problem 3 :</h2>
+      Print The Number 10 Using Loop.
+    </p>
+
+    <p>
+      <h2>Problem 4 :</h2>
+      Print Odd Numbers between 0 to 10.
+    </p>
+   <p>
+    <h2>Problem 5 :</h2>
+    User give Email Remove the mail Extension.Return the Name.
+    Example :
+     google@gmail.com --> OutPut --> google.
+   </p>
   </body>
+
   <script>
+    // Roandom String Generatin by the given string.
     const myString = "Javascript learner";
     console.log(
       "Random String : ",
@@ -57,6 +93,13 @@
         default :
           console.log('Game Not Started....');
     }
+// rock Papper Scissor Using ternary operator
+
+let result  = player === computer ? 'Game tie !' : player === 'papper' && computer != 'Scissor' ? 'Player Wins' : player === 'Rock' && computer != 'Papper' ? 'Player Wins' : player === 'Scissor' && computer != 'Rock' ? 'Player Wins' : 'Computer wins' ;
+
+console.log('Rock Paper Scissor Using Ternary Operator : ');
+console.log(`Player Choice : ${player}\n`,`Computer Choice : ${computer} \n` ,result);
 
   </script>
+  <script src="./answer.js"></script>
 </html>

@@ -1,0 +1,12 @@
+1. Null Colasking --> this is Used to Check If the value is Null what the Next work .
+   Syntax : 
+   variable ?? some Work.
+
+2. Number Methods : 
+    parseFloat --> convert into float datatype.
+    parseInt --> convert into integer datatype.
+
+3. Chaining Is Possibel In JS --> Means we Can use multiple methods in one line using '.' 
+    operator to seperate the methods.
+
+4. Number() --> converts string number into number.
