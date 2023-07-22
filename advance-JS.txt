@@ -10,3 +10,22 @@
     operator to seperate the methods.
 
 4. Number() --> converts string number into number.
+
+5. Function should Return A value . If No return Statement there Undefined.
+
+6. Tip --> Define All Work as Function. Write Fucntion Reusable . 
+
+7. Arrow Function :
+   Syntax : 
+   (parameter) => {
+    some work.....
+   }
+
+8. Scope Of Variables : 
+   Local Scope : --> validity between the blocks of code.
+   global scope --> Valid until remove the variable . we can use global variable in Local scope.
+   
+   Let -->  changable in block scope . scope means validity of variable.
+            block scope means the variable validity in block of statement.  
+   const --> Constant value. cant reassign.
+   var -->  type Coeirsion possible . data changable.

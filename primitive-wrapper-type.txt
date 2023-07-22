@@ -23,7 +23,7 @@
    repeat() --> return the string.
    replace() --> replace the string.
    search() --> search the string is or not.
-   slice() --> slice the string.
+   slice() --> slice the string. gives a array
    split() --> split the string return as array.
    trim() --> trims the whitespace. 
    
