@@ -85,7 +85,7 @@
        })
     
     19. Creating Objects : 
-        Constructor Function Id defined by New prefix keyword .
+        Constructor Function Is defined by New prefix keyword .
 
     20.When We create function and When we call the new Keyword is used automatically convert the 
        function into Object.

@@ -29,3 +29,33 @@
             block scope means the variable validity in block of statement.  
    const --> Constant value. cant reassign.
    var -->  type Coeirsion possible . data changable.
+
+9. Array In JavScript.
+  Join() --> converts array into string literals.
+
+10. Spread Operator '...' To concat the array . 
+
+    Syntax : 
+    array[...array1,...array2];
+11. multiple Dimentions Array . Storing array in array . 
+
+   Syntax: 
+   array = [array1,array2] ; 
+   console.log(array[0][0]);
+
+12.                           ADV OBJECTS IN JS 
+
+13. We Can Create Object in Object.
+
+14. InHeritance In Objects . Inheritance means making the copy of the created object as new object.
+
+    Example : 
+    const OriginalObject = {
+      some value : 'Original Object '
+    }
+  
+    const InheritedObject = Object.create(InheritedObject); --> create a copy of te object.
+     1. we can add properties in this object and rewrite also possible.
+     2. changes not reflected in original object.
+
+15. Object.keys() --> return the object key as array.

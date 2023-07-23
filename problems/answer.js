@@ -1,18 +1,28 @@
 // Printing 1 to 10 ;
+function NumberRange(startNum, endNum) {
+   let NumberArray = []
+   while (startNum < endNum) {
+      startNum++;
+      NumberArray.push(startNum)
+   };
+   return console.table(NumberArray);
+}
+NumberRange(10,15);
 
-let firstNum = 0;
-while (firstNum <= 10) {
-   console.log(`${firstNum}`);
-   firstNum++;
-};
+//todo creating function for oddNumber 
 
-// Printing Odd Number Using While Loop.
-let evenNum = 0;
-while (evenNum < 10) {
-   ++evenNum; //1 -> 3 ....
-   console.log(evenNum);
-   evenNum++; //2 --> 4
-};
+function oddNumber(startNum, endNum) {
+   let oddNumArrray = []
+   // Printing Odd Number Using While Loop.
+   while (startNum < endNum) {
+      ++startNum; //1 -> 3 ....
+      oddNumArrray.push(startNum);
+      startNum++; //2 --> 4
+   };
+   return console.table(oddNumArrray);
+}
+
+oddNumber(0, 10);
 
 //  converting mail
 
@@ -36,19 +46,20 @@ function removeMail(mail) {
       else {
          return console.log('Please Enter String Mail!');
       }
-      
+
    }
    return console.table(removed);
-}
+};;
+
 Email = ['google@gmail.com', 'Yahoo@mail.com', 'Facebook@mail.com', 'Instagram@mail.com'];
 removeMail(Email);
 
 // First case As Upper Case
 
-function asProperCase(mystring){
+function asProperCase(mystring) {
    var upcase = mystring[0].toUpperCase();
    var sli = mystring.slice(1).toLowerCase();
-   return console.log(`Input String : ${mystring}\n`,`Output String : ${upcase + sli}`);
+   return console.log(`Input String : ${mystring}\n`, `Output String : ${upcase + sli}`);
 }
 
 asProperCase('welcome to JAVAscript');
@@ -56,4 +67,5 @@ asProperCase('welcome to JAVAscript');
 // console.log(arr);
 // console.log(str[0].toLocaleUpperCase())
 
-
+var array = ['MultiDimetions', 'Array'];
+console.log(array[0][0]);
