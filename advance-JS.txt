@@ -59,3 +59,21 @@
      2. changes not reflected in original object.
 
 15. Object.keys() --> return the object key as array.
+
+16. Object.values() --> return the valules of the Object.
+
+17. delete object.property --> used to delete object property.
+
+                Destructuring The Object.
+
+18.  Destructuring The Object Means Assigning the object Property value in varibable.
+     We can Define the one more variable name using ','.
+     We can use the property name as variable. Property name and variable name should be same. 
+
+     Syntax : 
+     const {property Name : variablename} = Object name ; 
+
+     const{prop1,prop2,prop3} = object;
+     console.log(prop1.prop2,prop3);
+
+     In Function Pass the assigned variable use {variable Name} ;

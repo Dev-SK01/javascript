@@ -56,8 +56,9 @@ console.log(array[0][0]);
 
 const OriginalObject = {
     name : 'Original Object',
+    age : 20 ,
     Print : function(){
-       return console.log(this.name);
+       return console.log(this.name , this.age);
     }
 };
 OriginalObject.Print();
@@ -79,3 +80,26 @@ function printObjValues(obj1 ,obj2){
 
 printObjKeys(OriginalObject,InheritedObject);
 printObjValues(OriginalObject,InheritedObject);
+
+// todo   Acessing Object in For In Loop . 
+
+for ( let properties in OriginalObject){
+    console.log(properties);
+    console.log(OriginalObject[properties]);
+}
+
+// todo             Destructuring The Object. 
+
+const {name : AnotherName} = OriginalObject ;
+console.log(`Destructuring The Object : ${AnotherName}`);
+
+const{name,age,print} = OriginalObject;
+console.log(`Destructuring The Object:${name} ${age} ${print} `);
+
+// todo             passing the function variable . 
+
+function Destructure_Function({age}){
+    return console.log(`Destructuring The Object Using Function : ${age}` );
+}
+
+Destructure_Function(OriginalObject);

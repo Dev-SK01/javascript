@@ -1,0 +1,38 @@
+                                  CLASS INN JAVSCRIPT
+
+1. Class Is A template For creating object In Javascript. To ensure code readablity & Reusablity.
+   
+    Syntax 
+    class Objectname{
+        constructor(){
+            this.object properties : value ;
+        }
+        classFuction(){
+            some work.....
+        }
+    }
+
+2.We can declare function without function keyword.
+
+3.In Class constructor Fucntion We can Pass the paramenter to Store the Object data.
+
+  Syntax:
+  class Objectname{
+    constructor(param1,param2){
+        this.param1 = param1 ;
+        this.param2  = pram2 ;
+    }
+  }
+
+4. Create Object Using the Class Name : 
+   Variable Name =  new Classname('Parameter');
+
+5. If We Want to update the Property value use Function to update the value in class .
+
+6. Extends Keyword Used to create a child Class. 
+
+ Syntax :
+  class Objectname2 extends Objectname {
+    super(param1);
+    this.param3 = param3;
+  }
