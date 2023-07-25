@@ -14,7 +14,7 @@
 
 2.We can declare function without function keyword.
 
-3.In Class constructor Fucntion We can Pass the paramenter to Store the Object data.
+3.In Class constructor Function We can Pass the paramenter to Store the Object data.
 
   Syntax:
   class Objectname{
@@ -29,10 +29,13 @@
 
 5. If We Want to update the Property value use Function to update the value in class .
 
-6. Extends Keyword Used to create a child Class. 
+6. Extends Keyword Used to create a child Class It Inherits the Parent class Properties. 
 
  Syntax :
   class Objectname2 extends Objectname {
     super(param1);
     this.param3 = param3;
   }
+7. Super() --> keyword used to acess the parent class properties.
+
+8. #property Name --> is private property. It acess between the class.

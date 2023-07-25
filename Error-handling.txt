@@ -1,0 +1,29 @@
+                              Error Handling In JS
+                    
+1. "Use Strict";  --> Use to Change JS To Strict Mode. Like Normal Languages.
+    Reference Error.
+
+2. Syntax Error ;
+
+3. Type Error It tells The Data Type Error and variable Error.
+
+4. In Javascript To handle Error There TRY CATCH FINALLY Methods to handle the errors in JS.
+
+5.TRY{} --> used to define the error it is posssible to come In the Logic.
+
+6. Catch(param){} ---> used to Catch the error if Try Throw And Do Some Work On that Error.
+
+  finally{} --> the code excutes the finally statements then exit . If error happens or not.
+
+7. console.warn  & error --> used to specify the error.
+
+8.throw new --> used to create user defined error.
+  Syntax : 
+  try{
+    throw new errorfunction();
+  }
+  Catch(param){
+
+  }
+
+9. Error() --> method is used to throw the error message.

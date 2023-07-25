@@ -29,3 +29,20 @@ class SocialMediaWithSetFunction extends SocialMedia{
 
 const media_4 = new SocialMediaWithSetFunction('Threads' , 'Twitter' , 'Medium ');
 media_4.ShowMedia();
+
+// todo   private property 
+
+class student{
+    #college = 'RMD';
+    constructor(name , age , department){
+        this.name = name ;
+        this.age = age ; 
+        this.department = department ; 
+    }
+    GetDetails(){
+        return console.log(`${this.name} ${this.age} ${this.department} ${this.#college}`);
+    }
+}
+
+const student_1 = new student('Srikanth','20','CSE');
+student_1.GetDetails();

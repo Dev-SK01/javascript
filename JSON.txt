@@ -1,0 +1,13 @@
+                         Javascript Object Notation 
+
+1.JSON Is Used To send And Receive Data Between The Servers . 
+
+2. It Is a Normal Text File .
+
+3. It Is Language Independent . It Can Be used in All Languages.
+
+4. In JS there Is JSON Object.
+
+5. stringify() --> used to convert object into JSON format . It Cannot Convert Function as JSON.
+
+6. parse() --> Used To convert JSON to Object.
