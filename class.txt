@@ -36,6 +36,6 @@
     super(param1);
     this.param3 = param3;
   }
-7. Super() --> keyword used to acess the parent class properties.
+7. Super() --> keyword used to access the parent class properties.
 
-8. #property Name --> is private property. It acess between the class.
+8. #property Name --> is private property. It access between the class.

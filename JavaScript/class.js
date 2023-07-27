@@ -1,4 +1,4 @@
-
+"use strict";
 class SocialMedia{
     constructor(name , type , popularity){
         this.name = name ;

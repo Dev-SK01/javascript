@@ -9,7 +9,7 @@
 
 4. In Javascript To handle Error There TRY CATCH FINALLY Methods to handle the errors in JS.
 
-5.TRY{} --> used to define the error it is posssible to come In the Logic.
+5.TRY{} --> used to define the error it is posssible to occur In the Logic.
 
 6. Catch(param){} ---> used to Catch the error if Try Throw And Do Some Work On that Error.
 

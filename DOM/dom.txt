@@ -1,0 +1,46 @@
+1. When WebPage LOads The Browser Creates the Html page into Document Object.It Create A Document 
+   tree structure.
+
+2. It Is a Standard DOM.
+
+3. Using DOM We Can Manipulate the HTML Page Including CSS also.
+
+4. For Creating Dynamic Websites.
+
+
+                            Documents Methods
+                    
+5. getelmentByid() --> used to get a element by using the ID.
+
+6. queryselector() --> used to select the elements by id or class name. we need to specify ID OR class
+   We can also select class name and element also.
+
+7.style.style propery = "value" --> used to change the style of the element.
+
+8.getelements by classname() --> used to elements by className.
+
+9. queryselectorall() --> used to select classname.
+
+10. NodeList --> its Like A tree Nodes Like Document the HTML tags Converted into Nodes like Tree Nodes. It Give the all tha data in the html elements.
+
+11. getelmentByTagName() --> used to select element by tag name.
+
+12. textContent --> used to change the text in HTML
+
+13. innerHTML --> used to add the new html tags.
+
+14. We Can Also Call Parent Child & child Nodes.
+
+15. We Can travese like tree In HTML DOM.
+
+16.haschildnodes() --> to check child not or not.
+
+17.lastchild --> gives the last child.
+
+18.lastElementChild() --> gives the last html Element.
+
+19. remove() --> used to remove the element in HTML DOM.
+
+20.createElement() --> creates a new element.
+
+21.append() --> adds the created element to the parent.

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<style>
+    h1 {
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .section-01,.section-02
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    }
+
+    .section-01 div {
+        height: 100px;
+        width: 100%;
+        background-color: rgb(9, 10, 10);
+        text-align: center;
+        font-weight: bolder;
+        color: white;
+
+    }
+
+    .section-02 div {
+        height: 100px;
+        width: 100%;
+        background-color: rgb(9, 10, 10);
+        text-align: center;
+        font-weight: bolder;
+        color: white;
+    }
+
+    .loader-container {
+        height: 20px;
+        width: 80%;
+        border-radius: 25px;
+        background-color: black;
+        margin-block: 1rem;
+    }
+
+    .loader {
+        height: 20px;
+        background-color: rosybrown;
+        border-radius: 25px;
+        animation: 2.5s linear loader;
+        transition: all;
+    }
+
+    .animation {
+        animation: 2.5s linear loader;
+    }
+
+    @keyframes loader {
+        0% {
+            width: 1%;
+            background-color: blue;
+
+        }
+
+        25% {
+            width: 25%;
+            background-color: green;
+            transition: all 2s;
+
+        }
+
+        35% {
+            width: 35%;
+            background-color: yellow;
+        }
+
+        50% {
+            width: 50%;
+            background-color: orange;
+        }
+
+        75% {
+            width: 75%;
+            background-color: rebeccapurple;
+        }
+
+        100% {
+            width: 100%;
+            background-color: rosybrown;
+            transform: translateY(100px);
+        }
+    }
+</style>
+
+<body>
+    <h1>Document Object Model</h1>
+    <h2>Loader</h2>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <section id="section-01" class="section-01">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </section>
+    <div class="test">
+        <p></p>
+    </div>
+    <section class="section-02">
+
+    </section>
+</body>
+<script src="../DOM/dom.js">
+    // connected......
+</script>
+
+</html>
