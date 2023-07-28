@@ -44,3 +44,7 @@
 20.createElement() --> creates a new element.
 
 21.append() --> adds the created element to the parent.
+
+22. classList() --> adds the class to the particular element.
+
+23. classList.toggle() --> specify the next and previuos state.

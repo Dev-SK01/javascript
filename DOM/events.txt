@@ -1,0 +1,28 @@
+                        Events & Listners In JS
+
+1. Events In Js Like User Intraction And All other Interaction Between user.
+
+2. Syntax : 
+   addEventListners('Event name' ,function , use capture);
+
+3. Click --> it is used to if user click then what we need to do.
+
+4. removeEventlistner() --> removes the event .
+
+5. target property return the targetted element.
+
+6. readyStatechange() --> it ensure the doucment ready or not.
+
+7. BubblingUp --> If the Event Is Specified On Children IT Bubbling Upto it parent.
+  It means It Applies on parent also.
+
+8. StopPropagation() -->  Enables to stop The Bubbling() Use capture.
+
+9. If We Mention True In EVENTS It bubbling Down. Means Parent To child.
+
+10.Toggle() --> used to goto next state and previous state. we need to mention next 
+   and previous state.
+
+11.preventDefault() --> prevent Js preventDefault Behavior.
+
+12.submit --> submit the data.
