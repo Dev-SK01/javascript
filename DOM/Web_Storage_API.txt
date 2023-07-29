@@ -1,0 +1,28 @@
+                       Application Programming Interface
+
+1. API Is A service already developed by Developers If the Service We Need We Can use 
+   the Service As API.
+
+2. API Documentation Is Imporatant.
+
+3.Integration that service We Run through Our WepApplications.
+
+                   WebStorage API
+
+1. To Store Object Like Data IN Web Browser Storage . Like Cookies .
+   WebStorage API Better than Cookies.
+
+2. Session Storage --> Stores the data Until the Web Session Being Closed. 
+   Dont Send The Data to Server.
+
+3. LocalStorage --> stores the data if the browser is closed. we can access the data.
+
+4. window.TypeofStorage --> to initilize the storage API
+
+5. setItem('Item Variable ' , data);
+
+6. getItem('Item Variable');
+
+7. key() --> used to get the key of the stored Session Object.
+
+8. RemoveItem() --> used to Remove the stored data.

@@ -38,4 +38,4 @@ submit.addEventListener('submit',(event) =>{
     event.preventDefault();
     let value = input.value;
     console.log(value);
-})
+});

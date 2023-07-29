@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web_storage_API</title>
+</head>
+<style>
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+ form{
+    height: 250px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 3px black;
+ }
+label{
+   font-weight: bolder;
+   
+}
+button{
+    width: 60px;
+    border: none;
+    font-weight: bold;
+    border-radius:25px ;
+    margin-left: 10px;
+    background-color:purple;
+}
+input{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 3px black;
+    height: 50px;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+</style>
+<script defer src="./web_storage_API.js"></script>
+<body>
+    <h1>web_storage_API</h1>
+    <h1>Task 1 : </h1>
+    <p>Get A input From user and Store the data To Storage API & Print The Data.</p>
+    <form id="Myform">
+        <label>Name</label><br>
+        <input id="name" autocomplete="off" type="text" placeholder="Enter Your Name"><br>
+        <label>Age</label><br>
+        <input id="age" type="number" placeholder="Enter Your Name" autocomplete="off"><br><br>
+        <button id="btn" type="submit">Test</button>
+    </form>
+    <div id="details">
+        <p class="name"></p>
+        <p class="age"></p>
+    </div>
+</body>
+</html>

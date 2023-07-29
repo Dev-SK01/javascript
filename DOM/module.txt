@@ -1,0 +1,41 @@
+                             MOdule In JavaScript.
+
+1. Module Is JavaScript Set Of code We Import the Module. We Can use the module Code In Our
+   Js File.
+
+2. type = Module is Important.
+
+3. Using Module Use Strict Mode Activated.
+
+4. export ---> used to export the function
+
+5. export default exports the mandatory function
+   Syntax:
+    export default functionname ;
+
+6.for Default Cannot use Arrow Function
+
+7. import --> used to import the function
+   Syntax:
+
+   import functionname from "location';
+
+8.  as keyword --> used to change the name for the imported Js File .you can use the
+    function as changes name 
+
+    Syntax : 
+     
+    import{ functionname as newname}
+
+9. we Can Import Full File Using * symbol imports all Funciton IN the File.
+
+10. import * as somename from './location'
+
+11. If you Import Like this Use the Funciton prefix As somename.functionName
+
+12. We can import and export Class also.
+     
+     Syntax:
+     export class classname{};
+
+     import classname from './location'
