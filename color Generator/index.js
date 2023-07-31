@@ -10,6 +10,8 @@ const green= document.getElementById('green');
 
 const blue = document.getElementById('blue');
 
+const copy = document.querySelector('#copy');
+console.log(copy);
 
 function generateColor(){
     let GenRed = Math.floor(Math.random() * 255 +1);
@@ -32,8 +34,20 @@ function generateColor(){
    blue.style.color ='blue';
    
    mainDiv.style.backgroundColor = `rgb(${GenRed},${GenGreen},${GenBlue})`;
+
+   return `rgb(${GenRed},${GenGreen},${GenBlue})`
    
 };
 
 btn.addEventListener('click',generateColor);
 
+copy.addEventListener('click' , () =>{
+
+  let copyText = generateColor();
+
+    navigator.clipboard.writeText(copyText);
+
+    // Alert the copied text
+    alert("Color Copied ): " + copyText);
+});
+    
