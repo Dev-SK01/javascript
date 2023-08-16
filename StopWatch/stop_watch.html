@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="./stop_watch.css">
+    <script defer src="./stop_watch.js"></script>
+</head>
+
+<body oncontextmenu="false">
+    <div class="container-video">
+        <!-- <video src="./bg-video.mp4" autoplay = 'true' aria-controls="false" loop = "true"></video> -->
+        <div class="container">
+
+            <div class="watch">
+                <h1>StopWatch</h1>
+                <span class="hrs">00 : </span>
+
+                <span class="min">00 :</span>
+                <span class="sec">00 </span>
+
+                <div class="controls">
+                    <span class="start" onclick="ClockStart()">Start</span>
+                    <span class="stop" onclick="stopfunction()">Stop</span>
+                    <span class="reset" onclick="resetFunction()">Reset</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

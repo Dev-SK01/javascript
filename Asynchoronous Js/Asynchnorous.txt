@@ -1,0 +1,30 @@
+Synchronous : 
+
+Synchronous Means If One task Ends Another Task task Excuted.
+
+Asynchoronous : Excutes the task At A Time . It is HelpFul For Make Our websites Faster.
+                 Enables Faster User Interaction.
+
+Js Code Run By V8 Engine It Is Written By C & C++ .
+
+while we Excute the code the high Level Code will be goto V8 Engine Call Stack.
+Which means The lines Of Code . that code run by one by one by v8 Engine.
+
+using the browser Other Function Like Document like stuff excuted. WEBAPI
+
+Call Back Functions : 
+
+   Function Calls Another Function.
+
+Promises : 
+ promises means interface for Asynchoronous.
+
+three States : 
+i) Pending 
+ii) Fulfilled
+iii) rejected.
+
+
+Promise Object --> It is a js Object enables promise Functionality. 
+                   it Has Two Callback functions Resolve & rejected.
+                   promise Returns the States of the Promise.
