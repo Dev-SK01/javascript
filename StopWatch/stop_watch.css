@@ -10,7 +10,7 @@
    
 }
 
-.watch {
+/* .watch {
     text-align: center;
 }
 
@@ -64,9 +64,124 @@
         1px 1px 2px rgb(98, 0, 255),
         1px 1px 2px rgb(98, 0, 255);
  
+} */
+
+@media (max-width: 576px) {
+    .watch {
+        text-align: center;
+    }
+    
+    .watch h1 {
+        text-align: center;
+        font-size: 3rem;
+        animation: 500ms flicker linear infinite;
+        text-shadow:
+            0px 0px 3px #fff,
+            0px 0px 3px #fff,
+            0px 0px 3px #fff,
+            0px 0px 3px #0fa,
+            0px 0px 3px #0fa,
+            0px 0px 3px #0fa,
+            0px 0px 3px #0fa,
+            0px 0px 3px #0fa;
+        padding-top: 2.5rem;
+    }
+    
+    .hrs,
+    .min,
+    .sec {
+        font-family: 'clock';
+        font-size: 2.6rem;
+        font-weight: bolder;
+    
+    
+    }
+    
+    .hrs,
+    .min,
+    .sec span {
+        padding-block: 3rem;
+        display: inline-block;
+    }
+    
+    .start , .stop , .reset {
+        margin-inline:1.5rem;
+        margin-block: 1rem;
+        padding-inline: 1rem;
+        display: inline-block;
+        font-weight: bolder;
+        font-size:1.5rem;
+        text-shadow:
+            1px 1px 2px #fff,
+            1px 1px 2px #fff,
+            1px 1px 2px #fff,
+            1px 1px 2px rgb(212, 0, 255),
+            1px 1px 2px rgb(98, 0, 255),
+            1px 1px 2px rgb(98, 0, 255),
+            1px 1px 2px rgb(98, 0, 255),
+            1px 1px 2px rgb(98, 0, 255);
+     
+    }
+  }
+
+@media (min-width : 568px) {
+    .watch {
+        text-align: center;
+    }
+    
+    .watch h1 {
+        text-align: center;
+        font-size: 5rem;
+        animation: 500ms flicker linear infinite;
+        text-shadow:
+            0px 0px 5px #fff,
+            0px 0px 5px #fff,
+            0px 0px 5px #fff,
+            0px 0px 5px #0fa,
+            0px 0px 5px #0fa,
+            0px 0px 5px #0fa,
+            0px 0px 5px #0fa,
+            0px 0px 5px #0fa;
+        padding-top: 2.5rem;
+    }
+    
+    .hrs,
+    .min,
+    .sec {
+        font-family: 'clock';
+        font-size: 2.6rem;
+        font-weight: bolder;
+    
+    
+    }
+    
+    .hrs,
+    .min,
+    .sec span {
+        padding-block: 3rem;
+        display: inline-block;
+    }
+    
+    .start , .stop , .reset {
+        margin-inline: 5rem;
+        margin-block: 2.5rem;
+        padding-inline: 1rem;
+        display: inline-block;
+        font-weight: bolder;
+        font-size: 2rem;
+        text-shadow:
+            1px 1px 2px #fff,
+            1px 1px 2px #fff,
+            1px 1px 2px #fff,
+            1px 1px 2px rgb(212, 0, 255),
+            1px 1px 2px rgb(98, 0, 255),
+            1px 1px 2px rgb(98, 0, 255),
+            1px 1px 2px rgb(98, 0, 255),
+            1px 1px 2px rgb(98, 0, 255);
+     
+    }
 }
-
-
+  
 
 /* @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
