@@ -7,7 +7,7 @@
         constructor(){
             this.object properties : value ;
         }
-        classFuction(){
+        classFunction(){
             some work.....
         }
     }

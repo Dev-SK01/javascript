@@ -24,7 +24,29 @@ i) Pending
 ii) Fulfilled
 iii) rejected.
 
+promise Returns only states If we need data use then function todo what next
 
 Promise Object --> It is a js Object enables promise Functionality. 
                    it Has Two Callback functions Resolve & rejected.
                    promise Returns the States of the Promise.
+
+website JsonPlaceHolder.typico.com -->gives us sample api data json data to data.
+
+Website httpbin.org/post --> used to post the data
+.then() --> used for promise then what need to do . chain of then is possible what next
+
+Syntax :
+
+const promise = new Promise(resolve , reject){
+   some work....
+}
+
+
+                              Async | Await In Js
+
+Async & Await is Reduce the problem of promises.
+
+
+async --> is keyword tells the async function
+
+await --> wait uuntil that process is Fulfilled.

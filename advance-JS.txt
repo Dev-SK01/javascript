@@ -13,7 +13,7 @@
 
 5. Function should Return A value . If No return Statement there Undefined.
 
-6. Tip --> Define All Work as Function. Write Fucntion Reusable . 
+6. Tip --> Define All Work as Function. Write Fuctiion Reusable . 
 
 7. Arrow Function :
    Syntax : 
@@ -27,7 +27,7 @@
    
    Let -->  changable in block scope . scope means validity of variable.
             block scope means the variable validity in block of statement.  
-   const --> Constant value. cant reassign.
+   const --> Constant value. cant re-assign.
    var -->  type Coeirsion possible . data changable.
 
 9. Array In JavScript.
