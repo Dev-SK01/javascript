@@ -1,0 +1,27 @@
+                            WINDOW OBJECT IN DOM
+
+1.Window Object has multiple window properties and functions.
+
+2. window Height & Width --> it gives the value of window height and width
+
+3. Open() -->opens the new window  for the URL
+
+4.close() --> wether the windows openbythat window should be closed.
+
+5. moveTo() --> moves the windows progamitcally
+
+6. ResizeTo --> ResizweTo 
+
+7. Print() --> print the window opens.
+
+
+                            BOM Detail In JS
+Browser Object Model : Speaking to Browser
+
+screen() --> information about screen
+
+location() -->information About File Location HOST Details.
+
+History() --> To Access the History Information using BOM
+
+Navigator() --> Gives the Full data About browser & Site.

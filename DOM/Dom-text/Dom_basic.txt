@@ -1,0 +1,9 @@
+Window Is parent of all object
+.
+BOM is Browser Object Model
+   Window is browser object Top Layer of the DOM
+
+   In Node JS there Is no DOM it is a environment of JS
+
+If we not specify the Window automatically take Window Object.
+

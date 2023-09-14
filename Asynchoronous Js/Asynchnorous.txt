@@ -49,4 +49,4 @@ Async & Await is Reduce the problem of promises.
 
 async --> is keyword tells the async function
 
-await --> wait uuntil that process is Fulfilled.
+await --> wait until that process is Fulfilled.

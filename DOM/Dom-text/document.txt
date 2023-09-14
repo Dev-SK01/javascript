@@ -1,0 +1,29 @@
+                         Document Object in DOM 
+
+Document --> all inforamtion about the Document
+
+More Links More Ranking IN SEO TIP
+
+links() -->show the Document links.
+
+body () -->show the body content.
+
+all() -->shows the all elements.
+
+children -->returns the children.
+
+find() -->used to find the text in Document.
+
+DocumentContentLoaded() --> check the content parsed and loaded. Just Parse the HTML . | Event
+
+Load() --> if the all contents loadeded and return true | event
+
+onload() --> likely to load() | event
+
+onUnload() --> window Unload Return True | Event
+
+BeforeUnload()--> likely to Unload Before | Event
+
+Defer --> after excute the JS HTML parsed
+
+async --> run synchronous when script downloded.

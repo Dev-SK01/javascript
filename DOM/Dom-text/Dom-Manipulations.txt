@@ -1,0 +1,23 @@
+
+1. Dom MAinpulation are Manipulating the  dom Elements LIke Create Read Update Delete
+
+2.CreateElement() --> creates elements using in HTML
+
+3.Element.className -->creates a class for the element 
+
+4.CreateTextNode() --> creates a node for the html node.
+
+5.append() --> appends bottom the html to the parent
+
+6.prepend() --> prepends the top of the parent element.
+
+7.createComment() --> createa comment.
+
+8.innertext --> only the user visible text content
+
+9.textContent --> give the all conent in the full html.
+
+
+INNERHTML VS CreateElement 
+
+10.INNERHTML Consider as string as HTML Code | CreateElement creates a object like node.
