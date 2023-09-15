@@ -17,6 +17,10 @@
 
 9.textContent --> give the all conent in the full html.
 
+10. before() --> adds the element before the node.
+
+11. after() --> add the element after the node.
+
 
 INNERHTML VS CreateElement 
 

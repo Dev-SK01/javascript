@@ -1,0 +1,14 @@
+Document Fragment Used For the Perfomance.
+
+while we add content dynamic the browser rework flow begins.
+
+                        DOCUMENT FRAGMENT
+
+1.Document fregment creates a memory in the browser. in that particular memory we store the 
+  html code and so on using that memory data we construct a webpage.
+
+2.document.createDocumentFragment() --> to create a fragment | memory in browser.
+
+3. there is fragment object in js new DocumentFragment().
+
+4. to see the JS excution time console.time(label 'start') | timeEnd(label | 'end'); 
