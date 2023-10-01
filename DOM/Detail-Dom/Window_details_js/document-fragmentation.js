@@ -29,7 +29,7 @@ console.timeEnd('Function AddElement');
 console.time('Function CreateElement');
 
 function addElementsByCreateElement(foodItem){
-    let food = fooditem;
+    let food = foodItem;
     for(let i = 0 ; i < food.length ; i++){
         const pTag = document.createElement('p');
         const element = `CL-${food[i]}`;

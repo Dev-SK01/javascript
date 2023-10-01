@@ -25,3 +25,21 @@
 INNERHTML VS CreateElement 
 
 10.INNERHTML Consider as string as HTML Code | CreateElement creates a object like node.
+
+12. InsertAdjacentHTML AfterBegin beforeBegin .
+
+13. ReplaceWith(node | element) --> replace the existing element.
+
+14.replaceChildren(childrens) --> replaces childrens one by one.
+
+15.cloneNode(boolean) --> clones the html elements if true clone all child nodes.
+
+16.element.remove() --> remove the node from the html.
+
+
+
+                  Traversal In DOM 
+
+1.Array Forin | Array.from | for of
+
+2.

@@ -33,6 +33,7 @@ Promise Object --> It is a js Object enables promise Functionality.
 website JsonPlaceHolder.typico.com -->gives us sample api data json data to data.
 
 Website httpbin.org/post --> used to post the data
+
 .then() --> used for promise then what need to do . chain of then is possible what next
 
 Syntax :

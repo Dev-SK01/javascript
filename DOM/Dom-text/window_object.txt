@@ -6,7 +6,7 @@
 
 3. Open() -->opens the new window  for the URL
 
-4.close() --> wether the windows openbythat window should be closed.
+4.close() --> weather the windows openbythat window should be closed.
 
 5. moveTo() --> moves the windows progamitcally
 
