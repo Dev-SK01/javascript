@@ -21,6 +21,12 @@
 
 11. after() --> add the element after the node.
 
+12.queryselector() --> selects the class and id .
+
+13.queryselectorAll() --> selects element , class , id .
+
+14.prentNode --> returns the parent node
+
 
 INNERHTML VS CreateElement 
 
@@ -28,7 +34,7 @@ INNERHTML VS CreateElement
 
 12. InsertAdjacentHTML AfterBegin beforeBegin .
 
-13. ReplaceWith(node | element) --> replace the existing element.
+13. ReplaceWith  (node | element) --> replace the existing element.
 
 14.replaceChildren(childrens) --> replaces childrens one by one.
 
@@ -36,10 +42,12 @@ INNERHTML VS CreateElement
 
 16.element.remove() --> remove the node from the html.
 
+17.childNode() --> return the child node
+
 
 
                   Traversal In DOM 
 
-1.Array Forin | Array.from | for of
+1.Array For in | Array.from | for of
 
 2.

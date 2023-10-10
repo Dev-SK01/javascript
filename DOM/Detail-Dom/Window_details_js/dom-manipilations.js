@@ -38,6 +38,8 @@ function cloneElement(Element , boolean) {
 
 };
 
+
+
 createinnerHtml();
 CreateElement('section');
 cloneElement(body , true);
