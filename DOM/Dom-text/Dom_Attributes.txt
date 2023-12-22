@@ -1,0 +1,20 @@
+
+1. Attributes are Key Value Pairs In Html.
+
+2. setAttributes() --> set Attribute
+
+3. getAttribute() --> get the attribute in Html Element
+
+4. It Has attributes property we can access throught the Object also.
+
+5. We Can Access All Object access Syntax like . , ['name'] , [index] 
+
+6. hasAttribute() -->  Html Element has that attribut true | false 
+
+7.removeAttribute() --> Removes the attribute 
+
+8. Element.style.css --> returns the css Styles as properties
+
+9. data prefix to user defined attribute to get in the direct dom .
+
+10. it present in the dataSet property of the Element Object.

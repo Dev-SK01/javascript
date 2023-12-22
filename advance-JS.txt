@@ -15,13 +15,13 @@
 
 6. Tip --> Define All Work as Function. Write Fuctiion Reusable . 
 
-7. Arrow Function :
+7. ------------------- Arrow Function : ------------------------------------
    Syntax : 
    (parameter) => {
     some work.....
-   }
+   }  --> always refer window object.
 
-8. Scope Of Variables : 
+8. ------------- Scope Of Variables :---------------------------- 
    Local Scope : --> validity between the blocks of code.
    global scope --> Valid until remove the variable . we can use global variable in Local scope.
    
@@ -30,7 +30,7 @@
    const --> Constant value. cant re-assign.
    var -->  type Coeirsion possible . data changable.
 
-9. Array In JavScript.
+9. ------------------ Array In JavScript.-------------------
   Join() --> converts array into string literals.
 
 10. Spread Operator '...' To concat the array . 
@@ -43,7 +43,7 @@
    array = [array1,array2] ; 
    console.log(array[0][0]);
 
-12.                           ADV OBJECTS IN JS 
+12.-------------------------- ADV OBJECTS IN JS ----------------------------------
 
 13. We Can Create Object in Object.
 
@@ -54,7 +54,7 @@
       some value : 'Original Object '
     }
   
-    const InheritedObject = Object.create(InheritedObject); --> create a copy of te object.
+    const InheritedObject = Object.create(OriginalObject); --> create a copy of te object.
      1. we can add properties in this object and rewrite also possible.
      2. changes not reflected in original object.
 
@@ -64,14 +64,14 @@
 
 17. delete object.property --> used to delete object property.
 
-                Destructuring The Object.
+    ---------------------------- Destructuring The Object. ---------------------------
 
 18.  Destructuring The Object Means Assigning the object Property value in varibable.
      We can Define the one more variable name using ','.
      We can use the property name as variable. Property name and variable name should be same. 
 
      Syntax : 
-     const {property Name : variablename} = Object name ; 
+     const {property Name : variablename} = Object name  or property; 
 
      const{prop1,prop2,prop3} = object;
      console.log(prop1.prop2,prop3);

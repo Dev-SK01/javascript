@@ -1,4 +1,55 @@
 
+1. When WebPage LOads The Browser Creates the Html page into Document Object.It Create A Document 
+   tree structure.
+
+2. It Is a Standard DOM.
+
+3. Using DOM We Can Manipulate the HTML Page Including CSS also.
+
+4. For Creating Dynamic Websites.
+
+
+------------------------------- Documents Methods --------------------------
+                    
+5. getelmentByid() --> used to get a element by using the ID.
+
+6. queryselector() --> used to select the elements by id or class name. we need to specify ID OR class
+   We can also select class name and element also.
+
+7.style.style propery = "value" --> used to change the style of the element.
+
+8.getelements by classname() --> used to elements by className.
+
+9. queryselectorall() --> used to select classname.
+
+10. NodeList --> its Like A tree Nodes Like Document the HTML tags Converted into Nodes like Tree Nodes. It Give the all tha data in the html elements.
+
+11. getelmentByTagName() --> used to select element by tag name.
+
+12. textContent --> used to change the text in HTML
+
+13. innerHTML --> used to add the new html tags.
+
+14. We Can Also Call Parent Child & child Nodes.
+
+15. We Can travese like tree In HTML DOM.
+
+16.haschildnodes() --> to check child not or not.
+
+17.lastchild --> gives the last child.
+
+18.lastElementChild() --> gives the last html Element.
+
+19. remove() --> used to remove the element in HTML DOM.
+
+20.createElement() --> creates a new element.
+
+21.append() --> adds the created element to the parent.
+
+22. classList() --> adds the class to the particular element.
+
+23. classList.toggle() --> specify the next and previuos state.
+
 1. Dom MAinpulation are Manipulating the  dom Elements LIke Create Read Update Delete
 
 2.CreateElement() --> creates elements using in HTML
@@ -27,8 +78,9 @@
 
 14.prentNode --> returns the parent node
 
+15.closest(element) --> gives the closest ancester otherwise null returned.
 
-INNERHTML VS CreateElement 
+---------------------- INNERHTML VS CreateElement ------------------
 
 10.INNERHTML Consider as string as HTML Code | CreateElement creates a object like node.
 
@@ -51,3 +103,199 @@ INNERHTML VS CreateElement
 1.Array For in | Array.from | for of
 
 2.
+
+
+ ---------------- Dom Attributes -----------------
+
+
+1. Attributes are Key Value Pairs In Html.
+
+2. setAttributes() --> set Attribute
+
+3. getAttribute() --> get the attribute in Html Element
+
+4. It Has attributes property we can access throught the Object also.
+
+5. We Can Access All Object access Syntax like . , ['name'] , [index] 
+
+6. hasAttribute() -->  Html Element has that attribut true | false 
+
+7.removeAttribute() --> Removes the attribute 
+
+8. Element.style.css --> returns the css Styles as properties
+
+9. data prefix to user defined attribute to get in the direct dom .
+
+10. it present in the dataSet property .
+
+
+
+---------------------- Inline CSS Using Dom -----------------------
+
+1. We Can use setAttribute function to set inline css 
+
+    document.setAttribute('style' , 'color:red'); 
+
+2. Direct Style Property of the element 
+
+   Element.style.cssProperty = 'value';
+
+3. cssText --> We can assign the styleas html styles .
+
+  "color:red ; background-color:black;" 
+
+4.getComputedStyle() --> get the add details about computed properties of CSS
+
+
+-------------------- Class Style In DOM ----------------------
+
+1. element.className = 'class-name';
+
+2. element.classList --> It Is a a array list of class list .
+
+It also Has Array Manipulation method.
+
+replace() add() toggle() remove() tostring() contains() entries() keys() 
+
+toggle() --> if its present remove that class else add that className 
+
+
+
+--------------------- Event Listners -------------------------
+
+1.Events --> something happens in the browser . browser listns the event . 
+
+  then we can do some operation using JS.
+
+2. It Has Two Arguments or params (evenetName , callBack Function )
+
+3. If We Add Multiple Maping On One Event it Excuted On by one on addEventListeners().
+
+4. Event Object --> browser returns the object when the event occur.
+   This object has multiple properties about the event,
+
+5. removeEventListener() --> removes the event (event to remove , callBack Function)
+
+6.domEvents.dev website animated working of DomEvents
+
+
+    ------------------ Event Bubling & Capturing -----------------
+
+7.Bubling --> target to parent . event bubbles up.
+
+8.Capture --> parent to target . event bubble down 
+
+9.stoppropagation() --> stops the bubbling.
+
+10.stopImmediatePropagation() --> can't bubble another event of the element. 
+
+
+-------------------------- Preventing Browser Default Behavior --------------
+
+1. Event.preventDefault() --> disables the browser default behavior.
+
+2. defaultPrevented --> property give us the default behavior applied true | false
+
+
+        ------------------------ Event Deligations ------------------
+
+1. If We need to add multiple event on a page it will reduce the browser perfomance. 
+   so that we prevent we use event deligations.
+
+2. Adding the event for parent element and getting the target and do some kind of work for the element.
+
+    ------------------------------- Mouse Events --------------------
+
+1. Specifically For Mouse Events On Desktop. It Has More Events.
+
+2.MouseDown() --> Works some functionality on mouse click.
+
+3.MouseUp() --> work some functionality on mouse click release.
+
+4.MouseEnter() --> when mouse enter on the document. Do some Work.
+
+5.MouseLeave() --> when mouse Leaves the element. Do Some work.
+
+6.MouseMove() --> When Move do Some Work.
+
+7.MouseOut() --> like MouseMove When It Exit the Particular place
+
+8.MouseOver() --> when mouse Over the elements.
+ 
+ -------------------------- Keyboard Events -----------------------
+
+ 1.When Key Press Event triggered.
+
+ 2. It Won't Work On copy & Paste Key Press.
+
+ 3. keyDown() --> Triggered when key press.
+
+ 4.KeyUp() --> Triggered when key release.
+
+
+ ------------------------  Form Events ------------------------
+
+ 1. Form Name Attribute is a unique ID od the for to access from DOM.
+
+ 2. HTMLCollction[] --> update A DOM Model Faster.
+
+ 3.We Can Access form through index or name property.
+
+ 4.form.Element --> give the FormHTML Colection.
+
+ 5.We Can call Elements through Index or Name.
+
+             ------------------ Form Data -----------
+
+1. new FormData(form) --> It Is A Interface To Organize the given Form Data
+
+2. It Converts into A form As Object.
+
+3. When We create FormData it emit event formdata.We can modify the form data by methods.
+
+4.append() --> append the data to the formData.
+
+5.Entries(iterator) --> key and value as return
+
+6.values() --> Return Only Value.
+
+7.get(propertyName) --> get the value by name.
+
+8.has(property) --> check the property is present or not.
+
+9.key()--> return keys
+
+10 set(property , value) --> set formData.
+
+
+ ---------------------- Encoding Form Data --------------------------
+
+ 1.encodeUriComponent() --> used to encode the formdata into server query string.
+
+ 2. There are two ways to endcode the URL 
+
+   - JSON 
+   - Query String.
+
+ 3.URLsearchParams(formadata) --> convert into URLEncoded String.
+
+
+ -------------------- Fetch XHR ------------------ 
+
+1.XMLhttpRequest() --> its a interface to contact the sever and get the informaton from the server.
+
+2.open() --> open the call function.  send() --> sends the data to the server.
+
+3.Fetch() --> It a new method to contact the server. it Has Object .
+
+
+----------------------- Form Input Handling -----------------
+
+1.We can Modiify the formObject properties and methods.
+
+2.We can use methoda also.
+
+
+ ---------------------------- Data Persistence -------------------
+
+ 1.LocalStorage to store the data in client browser.

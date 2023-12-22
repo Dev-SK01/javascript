@@ -8,7 +8,7 @@
 4. For Creating Dynamic Websites.
 
 
-                            Documents Methods
+------------------------------- Documents Methods --------------------------
                     
 5. getelmentByid() --> used to get a element by using the ID.
 

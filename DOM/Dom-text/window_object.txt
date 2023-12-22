@@ -10,12 +10,13 @@
 
 5. moveTo() --> moves the windows progamitcally
 
-6. ResizeTo --> ResizweTo 
+6. ResizeTo --> ResizeTo 
 
 7. Print() --> print the window opens.
 
 
                             BOM Detail In JS
+                            
 Browser Object Model : Speaking to Browser
 
 screen() --> information about screen

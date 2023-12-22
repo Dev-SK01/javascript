@@ -2,7 +2,7 @@
      Is A set Ordered datatypes . Noramal language array Stores the same data values.
      In JS Is Object. We can Store Any kind Of Data Type.
 2. There is 2 ways to define Array In JS
-   i.CONSTRUCTER Type : 
+   -------------------i.CONSTRUCTER Type :-------------- 
 
       syntax : 
         var varname = new Array('elements');
@@ -38,6 +38,7 @@
 11. join( 'symbol ')  --> join the array with the given Symbol.
   
     Array.from() --> gives the array.
+    
                                 Stack Data Structure 
 
 12. Stack Means Last In First out Means Last Inserted data Getback First.

@@ -1,4 +1,4 @@
-Document Fragment Used For the Perfomance.
+  Document Fragment Used For the Perfomance.
 
 while we add content dynamic the browser rework flow begins.
 
@@ -11,4 +11,4 @@ while we add content dynamic the browser rework flow begins.
 
 3. there is fragment object in js new DocumentFragment().
 
-4. to see the JS excution time console.time(label 'start') | timeEnd(label | 'end'); 
+4. to see the JS excution time console.time(label 'start') | timeEnd(label | 'end');  

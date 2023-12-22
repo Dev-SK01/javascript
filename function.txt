@@ -18,7 +18,7 @@
 
         5. If No Function signature in Js
 
-        6. We Can create same named Funciton in JS The Last Written Funciton Will be Worked It 
+        6. We Can create same named Function in JS The Last Written Funciton Will be Worked It 
            Overwrites the Funciton
         
         7. If there Is  No Return statement In function Is shows Undefined .
@@ -34,7 +34,7 @@
             var asValue = somefunction(Argfun())  --> passes the return value.
 
 
-                              Detailed View Of Fucntions 
+                              Detailed View Of Functions 
                 
 10. Function Is One of the Object In Js . We Can Create a Function as Two Methods .
     Constructor Syntax : new Function ( function work)
